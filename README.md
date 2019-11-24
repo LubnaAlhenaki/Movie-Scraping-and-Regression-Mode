@@ -81,7 +81,7 @@ After completing the analysis and visualization, using a linear regression model
 
 
 ## 4. Resource Description
-For more details please viste [Project Resource](https://github.com/LubnaAlhenaki/sa19_ds1/tree/master/student_work/project2/Lubna_Alhenaki). This repo contains the following:
+For more details please viste [Project Resource](https://github.com/LubnaAlhenaki/Movie-Scraping-and-Regression-Mode). This repo contains the following:
 * Movie2018 that contain the code file.
 * Project-02 pdf file that describe the project in details.
 
