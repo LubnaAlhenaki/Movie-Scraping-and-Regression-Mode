@@ -17,7 +17,7 @@ In fact, the film industry is a significant player in the global economy.  In th
 
 ## 2. Workflow
 The following figure shows the workflow of Predicting Movie Domestic Total Gross 
-![Image test]({{ site.url }}/images/project2-1.png)
+![Image test](/images/project2-1.png)
 
 
 
@@ -26,12 +26,12 @@ The data scraping was one of the most time consuming parts of this project becau
 
 In this project I scraped from [boxofficemojo](https://www.boxofficemojo.com), I decided to start by scraping top of all  movies relased in 2018 so that I could build out my model. When I looked at the [page](https://www.boxofficemojo.com/yearly/chart/?yr=2018&p=.htm) that includes all movies that released on 2018, as a first step, I noticed that I need to collect all linkes of all movies then  go into each movie to collect the needed information. A lot of [interesting information](https://www.boxofficemojo.com/movies/?id=grinch2017.htm) was captured in the table at the top of each movie page. The following figure is a smaple of the strategy of scraping movies.
 
-![Image test]({{ site.url }}/images/project2-2.png)
+![Image test](/images/project2-2.png)
 
 At the end of this step, 879 movies and 8 features were collected.After that I saved all these information into CSV file.
 The featuers are Title, Domestic_Total_Gross, Distributor, Release_Date,Runtime	Production_Budget, MPAA_Rating, and Genre.The following figure is a smaple of Movies dataset:
 
-![Image test]({{ site.url }}/images/project2-3.png)
+![Image test](/images/project2-3.png)
 
 
 ### 2.2 Data Cleaning and Feature Engineering
@@ -54,15 +54,15 @@ The following sections describe in details model building
 
 After data cleaning steps completed,then I start to building the linear regression models.Generally, before starting building the model we should check many things. First, I create an initial plot of Domestic_Total_Gross to look to the distribution. From the following figere the initial plot looks like normal distribution so there is no need to do the log transformation
 
-![Image test]({{ site.url }}/images/project2-4.png)
+![Image test](/images/project2-4.png)
 
 I also created a residual plot to ensure if the residuals were more or less random.It's clear from the following figere the residual is ramdom error
 
-![Image test]({{ site.url }}/images/project2-5.png)
+![Image test](/images/project2-5.png)
 
 To check the binary correlation between featuers I build a correlation matrix
 
-![Image test]({{ site.url }}/images/project2-6.png)
+![Image test](/images/project2-6.png)
 
 #### 2.3.2 Model Selection Process
 
